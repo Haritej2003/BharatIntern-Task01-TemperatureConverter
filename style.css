@@ -1,0 +1,63 @@
+body{
+    background-color:cyan;
+}
+.container{
+   
+    height:100%;
+    padding: 5rem;
+}
+h1{
+    color: black;
+}
+.child{
+    border:2px solid black;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+     display:flex;
+     
+     height:40%;
+    padding: 5rem;
+    transform: translate(-400px,-90px);
+    width:40%;
+}
+.result{
+  
+    flex-direction:row;
+    display:flex;
+}
+.value{
+    color:black;
+    font-weight: bold;
+    font-size: large;
+}
+.convert{
+    transform: translate(-390px,30px);
+}
+#my-button{
+    transform: translate(30px,30px);
+    color:white;
+    background-color:blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.final {
+    transform: translate(30px,40px);
+}
+.final #Celsius1,#Fahreinheit1,#Kelvin1{
+    color:black;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#Celsius,#Fahreinheit,#Kelvin{
+    color: blue;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+   
+    
+

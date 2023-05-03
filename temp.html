@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>temperature</title>
+       
+        <link rel="stylesheet" type="text/css" href="D:\vscode\quiz2\temperature\style.css">
+        
+        <meta charset="UTF-8">
+        <script src="script.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <h1 align="center">Temperature Converter</h1>
+        <div class="child"><label class="value">
+            Enter Temperature
+            <input type="number" id="user-input">
+        </label>
+        <form>
+            <select id="inputdegree">
+            <option value="celsius">Celsius</option>
+            <option value="fahreinheit">Fahreinheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select>
+        </form>
+      
+        <div class="result">
+           <div class="convert">
+            <button  id="my-button" onclick="convertTemperature()">Convert</button>
+            <div class="final">
+                <span id="Celsius1">Celsius:</span><span id="Celsius"></span><br>
+                 <span id="Fahreinheit1">Fahrenheit:</span><span id="Fahreinheit"></span><br>
+                 <span id="Kelvin1">Kelvin:</span><span id="Kelvin"></span>
+            </div>
+         </div>
+        </div>
+        </div>
+        </div>
+    </body>
+</html>
